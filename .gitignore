@@ -1,0 +1,80 @@
+# ============================================================
+#  .gitignore — Proyecto de diseño electrónico + 3D + producto
+# ============================================================
+
+# ----- Sistema operativo -----
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+# macOS
+.DS_Store
+.AppleDouble
+._*
+# Linux
+*~
+.Trash-*
+
+# ----- Editores / IDEs -----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# ----- CAD 3D (Fusion 360 / SolidWorks) -----
+# Bloqueos y respaldos. NO ignora los diseños (.f3d / .sldprt / .sldasm / .slddrw)
+~$*
+*~*.SLD*
+*.SLDPRT.bak
+*.SLDASM.bak
+*.SLDDRW.bak
+*.f3d.lock
+*.lck
+Backup/
+backup/
+Backups/
+swxJRNL.*
+# Mallas/exportaciones pesadas: descomenta si NO quieres versionarlas
+# *.stl
+# *.step
+# *.stp
+# *.iges
+# *.igs
+
+# ----- Diseño electrónico (respaldos / cachés genéricos) -----
+*-backups/
+_autosave/
+fp-info-cache
+*.kicad_pcb-bak
+*.sch-bak
+*.000
+*.b#*
+History/
+__Previews/
+Project Logs*/
+
+# ----- Firmware / código (src) -----
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+# PlatformIO / Arduino
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+*.elf
+*.hex
+*.bin
+# Node
+node_modules/
+
+# ----- Varios -----
+*.log
