@@ -54,7 +54,7 @@ tags:
 
 ---
 ## Enlaces
-[[MOC del proyecto]]
+[[proyectos|Proyectos Electrónica]]
 ```
 
 ---
@@ -88,7 +88,7 @@ tags:
 - **Separadores de sección**: una regla horizontal `---` entre secciones consecutivas
   (antes de cada `## ` salvo la primera). Da respiro visual en Obsidian.
 - **Sección `Enlaces`** (apéndice): el documento cierra con `## Enlaces` seguido de
-  wikilinks `[[ ]]` a la MOC del proyecto y a documentos relacionados. Es la única
+  wikilinks `[[ ]]` a la nota hub del proyecto en `Enlaces/` y a documentos relacionados. Es la única
   sección sin numerar; los enlaces internos del cuerpo siguen usando rutas relativas.
 - **Código y rutas** siempre en `backticks`; bloques con el lenguaje declarado
   (```bash, ```cpp, ```yaml).
@@ -172,4 +172,4 @@ ajusta solo estas piezas:
 
 ---
 ## Enlaces
-[[Proyectos Electrónica]]
+[[proyectos_personal|Proyectos Electrónica]]

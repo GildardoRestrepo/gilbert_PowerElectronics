@@ -2,22 +2,25 @@
 
 ## Descripción
 
-Descripción general de proyecto
+Desarrollo de diferentes convertidores de electrónica de potencia (AC/DC - DC/DC - DC/AC) portables. Diseñados especialmente para su el curso de Electrónica de Potencia de la Universidad Pontificia Bolivariana.
+Dimensionados a los valores de tensiones de entrada y salida que permite el Laboratorio de Máquinas Eléctricas de la UPB.
 
 ---
 
 ## Estado de proyecto
 
-Iniciado / En proceso / Terminado
+- [x] Iniciado
+- [x] En proceso
+- [] Terminado
 
 ---
 
 ## Herramientas y entornos empleados
 
-- Herramienta de diseño electrónico.
-- Herramienta de diseño 3D.
-- Herramienta de simulaciones.
-- Entorno de desarrollo de software + Lenguajes de programación.
+- KiCad como herramienta de diseño electrónico.
+- Fusion 360 como herramienta de diseño 3D.
+- PSIM como software principal de simulación.
+- ESP32 + Arduino IDE para la lógica de control de los semiconductores.
 
 ---
 
@@ -34,12 +37,14 @@ Resumen de la arquitectura de proyecto
 Ejemplo
 
 ```
-- docs
+- _docs
 - datasheets
 - electronics_design
+- esp32_src
+- experimental_results
+- math&physics_analysis
 - mechanical_3d
-- simulations
-- src
+- psim_simulations
 - README
 - LICENSE
 ```
@@ -48,16 +53,17 @@ Ejemplo
 
 ## Cómo usarlo
 
-Explicación de como reproducir o emplear este proyecto.
+Explicación de como reproducir o emplear este proyecto. (Explicar al final)
 
 ---
 
 ## Contacto
 
-Mensaje de contacto para dudas, inquietudes, sugerencias, insultos, agradecimientos ...
+gildardo.restrepo@upb.edu.co
+estevanrestrepo78@gmail.com
 
 ---
 
 ## Enlaces
 
-[[Proyectos Electrónica]]
+[[proyectos_personal]]
