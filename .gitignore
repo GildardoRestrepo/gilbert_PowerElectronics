@@ -1,8 +1,8 @@
 # ============================================================
-#  .gitignore — Proyecto de diseño electrónico + 3D + producto
+#  .gitignore — Electronics + 3D design project
 # ============================================================
 
-# ----- Sistema operativo -----
+# ----- Operating system -----
 # Windows
 Thumbs.db
 Thumbs.db:encryptable
@@ -18,7 +18,7 @@ $RECYCLE.BIN/
 *~
 .Trash-*
 
-# ----- Editores / IDEs -----
+# ----- Editors / IDEs -----
 .vscode/
 .idea/
 *.swp
@@ -27,7 +27,7 @@ $RECYCLE.BIN/
 *.bak
 
 # ----- CAD 3D (Fusion 360 / SolidWorks) -----
-# Bloqueos y respaldos. NO ignora los diseños (.f3d / .sldprt / .sldasm / .slddrw)
+# Lock and backup files. Design files (.f3d / .sldprt / .sldasm / .slddrw) are NOT ignored
 ~$*
 *~*.SLD*
 *.SLDPRT.bak
@@ -39,14 +39,14 @@ Backup/
 backup/
 Backups/
 swxJRNL.*
-# Mallas/exportaciones pesadas: descomenta si NO quieres versionarlas
+# Heavy meshes/exports: uncomment if you do NOT want to version them
 # *.stl
 # *.step
 # *.stp
 # *.iges
 # *.igs
 
-# ----- Diseño electrónico (respaldos / cachés genéricos) -----
+# ----- Electronic design (backups / generic caches) -----
 *-backups/
 _autosave/
 fp-info-cache
@@ -58,7 +58,7 @@ History/
 __Previews/
 Project Logs*/
 
-# ----- Firmware / código (src) -----
+# ----- Firmware / source code -----
 # Python
 __pycache__/
 *.py[cod]
@@ -76,5 +76,5 @@ build/
 # Node
 node_modules/
 
-# ----- Varios -----
+# ----- Miscellaneous -----
 *.log
